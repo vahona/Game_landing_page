@@ -20,9 +20,10 @@
   },
   "homepage": "https://github.com/vahona/Game_landing_page#readme",
 
-  "scripts": {
-    "css": "node-sass scss -o webroot/css",
-    "css:watch": "npm run css && node-sass scss -w -o webroot/css"
-  }
+ "scripts": {
+   "css": "node-sass scss -o webroot/css",
+   "css:watch": "npm run css && node-sass scss -w -o webroot/css"
+
+ }
 
 }
