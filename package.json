@@ -1,0 +1,28 @@
+{
+  "name": "game_landing_page",
+  "version": "1.0.0",
+  "description": "New project",
+  "main": "index.js",
+  "dependencies": {
+    "dart-sass": "^1.25.0",
+    "node-sass": "^1.25.0",
+    "node-sass-install": "^1.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vahona/Game_landing_page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vahona/Game_landing_page/issues"
+  },
+  "homepage": "https://github.com/vahona/Game_landing_page#readme",
+
+  "scripts": {
+    "css": "node-sass scss -o webroot/css",
+    "css:watch": "npm run css && node-sass scss -w -o webroot/css"
+  }
+
+}
