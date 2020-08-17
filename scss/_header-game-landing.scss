@@ -1,3 +1,31 @@
 .masthead {
-  
+  background-image: url(../css/images/bg-jungleruins.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
 }
+
+.logo__game__title {
+  font-family: bebas-neue;
+}
+
+.logo__game__header {
+ background-image: url(../css/images/logo.svg);
+ background-repeat: no-repeat;
+ text-indent: -999px;
+ text-decoration: none;
+ display: block;
+}
+ 
+.logo-navigation {
+  background-image: url(../css/images/menu_icon.png);
+  background-repeat:no-repeat;
+   
+}
+
+.logo__game__button {
+  background-color: rgb(248, 177, 45);
+  border-radius: 5px;
+  width: 216px
+}
+

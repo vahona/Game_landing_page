@@ -1,0 +1,42 @@
+@font-face {
+  font-family: bebas-neue;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../webroot/css/fonts/bebas-neue.woff) format("woff"); }
+
+.masthead {
+  background-image: url(../css/images/bg-jungleruins.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white; }
+
+.logo__game__title {
+  font-family: bebas-neue; }
+
+.logo__game__header {
+  background-image: url(../css/images/logo.svg);
+  background-repeat: no-repeat;
+  text-indent: -999px;
+  text-decoration: none;
+  display: block; }
+
+.logo-navigation {
+  background-image: url(../css/images/menu_icon.png);
+  background-repeat: no-repeat; }
+
+.logo__game__button {
+  background-color: #f8b12d;
+  border-radius: 5px;
+  width: 216px; }
+
+.masthead__firstpart {
+  display: flex; }
+
+.logo-navigation {
+  display: none; }
+
+.game__languages__choice {
+  color: white; }
+
+.game__box__union {
+  display: none; }
