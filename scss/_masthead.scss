@@ -1,16 +1,56 @@
-.masthead__firstpart {
+
+
+.logo__navigation__list {
     display: flex;
-    
+
 }
 
-.logo-navigation {
+.logo__game__header {
+    width: 100px;
+    height: 50px;
+}
+
+.logo__link_main,
+.logo__link_about,
+.logo__link_feature,
+.logo__link_system,
+.logo__link_quote{
     display: none;
+}
+  
+
+.logo__game__header {
+ background-image: url(../css/images/logo.svg);
+ background-repeat: no-repeat;
+ text-indent: -999px;
+ text-decoration: none;
+ display: block;
 }
 
 .game__languages__choice {
-    color: white;
+    float: right;
 }
 
 .game__box__union {
     display: none;
-}   
+}
+
+select {
+    color: white;
+    background-color: transparent;
+    border: transparent;
+}
+
+svg {
+  position: absolute;
+  top: 16px;
+  right: 2rem;
+
+}
+
+.game__languages__choice {
+    position: relative;
+    bottom: 70px;
+    right: 100px;
+}
+

@@ -13,6 +13,48 @@
 .logo__game__title {
   font-family: bebas-neue; }
 
+.logo-navigation {
+  background-repeat: no-repeat; }
+
+.logo__game__button {
+  background-color: #f8b12d;
+  border-radius: 5px;
+  width: 216px;
+  font-weight: 700; }
+
+.masthead__secondpart {
+  text-align: center; }
+
+.logo__game__lists {
+  list-style: none;
+  display: flex; }
+
+.logo__game__list {
+  margin: 8px; }
+
+.logo__game__paragraph {
+  background-image: url(../css/images/scroll_down.png);
+  background-repeat: no-repeat;
+  background-position: 25px 20px;
+  max-width: 68px;
+  height: 32px;
+  margin-inline-start: 1rem;
+  left: 5px; }
+
+.logo__navigation__list {
+  display: flex; }
+
+.logo__game__header {
+  width: 100px;
+  height: 50px; }
+
+.logo__link_main,
+.logo__link_about,
+.logo__link_feature,
+.logo__link_system,
+.logo__link_quote {
+  display: none; }
+
 .logo__game__header {
   background-image: url(../css/images/logo.svg);
   background-repeat: no-repeat;
@@ -20,23 +62,26 @@
   text-decoration: none;
   display: block; }
 
-.logo-navigation {
-  background-image: url(../css/images/menu_icon.png);
-  background-repeat: no-repeat; }
-
-.logo__game__button {
-  background-color: #f8b12d;
-  border-radius: 5px;
-  width: 216px; }
-
-.masthead__firstpart {
-  display: flex; }
-
-.logo-navigation {
-  display: none; }
-
 .game__languages__choice {
-  color: white; }
+  float: right; }
 
 .game__box__union {
   display: none; }
+
+select {
+  color: white;
+  background-color: transparent;
+  border: transparent; }
+
+svg {
+  position: absolute;
+  top: 16px;
+  right: 2rem; }
+
+.game__languages__choice {
+  position: relative;
+  bottom: 70px;
+  right: 100px; }
+
+body {
+  margin: 0; }
