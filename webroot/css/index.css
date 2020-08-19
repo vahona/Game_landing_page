@@ -15,8 +15,9 @@
   background-repeat: no-repeat;
   color: white;
   background-size: cover;
-  padding-inline-start: 4rem;
-  padding-block-start: 1rem; }
+  padding-inline-start: 2rem;
+  padding-block-start: 1rem;
+  margin: auto; }
 
 .logo__game__title {
   font-family: bebas-neue;
@@ -91,8 +92,14 @@
     text-align: center;
     align-items: center; } }
 
+.asthead__firstpart {
+  padding: 1rem; }
+
 .logo__navigation__list {
   display: flex; }
+
+.masthead__secondpart {
+  padding-block-start: 200px; }
 
 .logo__link_main,
 .logo__link_about,
@@ -102,16 +109,16 @@
   display: none; }
 
 .logo__game__header {
-  background-image: url(../css/images/logo.svg);
-  background-repeat: no-repeat;
-  text-indent: -999px;
-  text-decoration: none;
-  display: block; }
+  left: 0;
+  margin-inline-start: 1rem;
+  margin-block-end: 3rem;
+  position: absolute;
+  margin-top: 0; }
 
 .game__languages__choice {
   float: right;
   position: relative;
-  bottom: 50px;
+  bottom: 25px;
   right: 100px; }
 
 .game__icone, .game__icon {
@@ -121,29 +128,44 @@ select {
   color: white;
   background-color: transparent;
   border: transparent;
-  top: 0; }
+  top: 0;
+  position: relative; }
 
 svg {
   position: absolute;
   top: 16px;
-  right: 2rem; }
+  right: 1rem; }
 
 option {
   background-color: black; }
 
 .masthead__thirdpart {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding-block-start: 100px;
+  padding-block-end: 50px; }
 
 .bar {
-  float: right;
-  bottom: 50px;
-  position: relative;
-  right: 10px; }
+  float: right; }
+
+.bar-image {
+  left: 4rem;
+  top: 0;
+  position: relative; }
 
 @media (min-width: 1100px) {
+  select {
+    color: white;
+    background-color: transparent;
+    border: transparent;
+    top: 3rem;
+    right: inherit;
+    position: absolute; }
   .game__box__union {
     display: block; }
+  .logo__game__header {
+    background-size: 5%;
+    height: 100px; }
   .bar-icon {
     display: none; }
   .game-icon2 {
@@ -151,6 +173,9 @@ option {
   .game__icon {
     display: block;
     right: 20px; }
+  .logo__story__game__paragraph {
+    align-items: center;
+    text-align: center; }
   .game__icone {
     display: block;
     right: 10px; }
