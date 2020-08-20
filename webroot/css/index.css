@@ -216,27 +216,22 @@ body {
   font-family: bebas-neue;
   letter-spacing: 3px; }
 
-.game__first__section__heading {
-  padding-top: 10px; }
+.game__first__section__paragraph--detail {
+  font-family: open-sans;
+  font-weight: normal;
+  line-height: 22px; }
 
 .game__first__section {
   background-image: url(../css/images/bg_big_first.png);
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
   color: white; }
 
 .container {
   background: rgba(10, 0, 0, 0.8);
   top: 0;
   left: 0;
-  width: 1400;
-  height: 100%; }
-
-.game__first__section__paragraph--detail {
-  font-family: open-sans;
-  font-weight: normal;
-  line-height: 22px; }
+  padding: 32px; }
 
 .game__first__section--paragraph {
   border-top: 3px solid white; }
