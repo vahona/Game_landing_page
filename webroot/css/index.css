@@ -5,6 +5,12 @@
   src: url(../css/fonts/bebas-neue1.woff) format("woff"); }
 
 @font-face {
+  font-family: bebas-neue;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../css/fonts/bebas-neue1.woff) format("woff"); }
+
+@font-face {
   font-family: open-sans;
   font-weight: 700;
   font-style: normal;
@@ -152,7 +158,8 @@ option {
   padding-block-end: 50px; }
 
 .bar {
-  float: right; }
+  float: right;
+  margin-block-start: -50px; }
 
 .bar-image {
   left: 4rem;
@@ -170,7 +177,7 @@ option {
   .game__box__union {
     display: block; }
   .logo__game__header {
-    background-size: 5%;
+    background-size: 50%;
     height: 100px; }
   .bar-icon {
     display: none; }
@@ -226,6 +233,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: white; }
+
+.second__section__info {
+  margin-inline-start: 3rem; }
 
 .container {
   background: rgba(10, 0, 0, 0.8);
@@ -284,3 +294,38 @@ body {
 .game__images__screenshot3 {
   max-width: 100%;
   display: block; }
+
+.game__second__section {
+  background-image: url(../css/images/bg_image_big.png);
+  background-size: cover; }
+
+.second__container {
+  padding-block-start: 1rem;
+  background: radial-gradient(17.45% 34.77% at 31.45% 40.62%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(4, 5, 6, 0.520671) 25.99%, rgba(6, 7, 8, 0.739601) 65.03%, #080A0B 99.74%); }
+
+.game__second__section--header {
+  font-family: bebas-neue;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 18px;
+  color: white; }
+
+.game__second__section--subheader {
+  font-family: bebas-neue;
+  letter-spacing: 3px;
+  font-size: 33px;
+  color: white; }
+
+.game__second__section--smalheader {
+  color: #FFB548;
+  font-family: bebas-neue;
+  letter-spacing: 2px;
+  line-height: 21px;
+  font-size: 21px; }
+
+.game__second__section--paragraph {
+  color: white;
+  font-family: open-sans; }
+
+.second__section__info {
+  margin-inline-start: 300px; }
