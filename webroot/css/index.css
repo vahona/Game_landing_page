@@ -364,3 +364,11 @@ body {
   line-height: 33px;
   font-size: 33px;
   letter-spacing: 3px; }
+
+.game__third__section__table--header {
+  color: #FFB548;
+  text-transform: uppercase;
+  font-family: bebas-neue-bold;
+  line-height: 18px;
+  font-size: 18px;
+  letter-spacing: 2px; }

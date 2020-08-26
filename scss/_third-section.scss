@@ -10,16 +10,19 @@
 
 .game__third__section--header {
     font-family: bebas-neue-bold;
-    line-height: 18px;
-    font-size: 18px;
-    letter-spacing: 2px;
+    @include font-size-small;
     color: #FFFFFF;
     
 }
 
 .game__third__section--subheader {
     font-family: bebas-neue-bold;
-    line-height: 33px;
-    font-size: 33px;
-    letter-spacing: 3px;
+    @include font-size-highter;
+}
+
+.game__third__section__table--header {
+    color:  #FFB548;
+    text-transform: uppercase;
+    font-family: bebas-neue-bold;
+    @include font-size-small
 }
