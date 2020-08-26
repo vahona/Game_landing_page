@@ -32,16 +32,20 @@
   margin: auto; }
 
 .logo__game__title {
-  font-family: bebas-neue;
-  letter-spacing: 5px;
-  font-weight: 600;
-  line-height: 18px;
+  font-family: bebas-neue-bold;
   justify-content: center;
   text-align: center;
   color: #FFFFFF;
-  font-size: 33px;
+  align-items: center;
   line-height: 33px;
-  align-items: center; }
+  font-size: 33px;
+  letter-spacing: 3px; }
+
+.logo__game__subtitle {
+  line-height: 18px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #FFFFFF; }
 
 .logo-navigation {
   background-repeat: no-repeat; }
