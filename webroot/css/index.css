@@ -5,7 +5,7 @@
   src: url(../css/fonts/bebas-neue1.woff) format("woff"); }
 
 @font-face {
-  font-family: bebas-neue;
+  font-family: bebas-neue-bold;
   font-weight: 700;
   font-style: normal;
   src: url(../css/fonts/bebasneuebold.woff) format("woff"); }
@@ -17,10 +17,10 @@
   src: url(../css/fonts/open-sans.woff) format("woff"); }
 
 @font-face {
-  font-family: open-sans;
+  font-family: opensans-regular;
   font-weight: 400;
   font-style: normal;
-  src: url(../css/fonts/open-sans.woff) format("woff"); }
+  src: url(../css/fonts/opensans-regular.woff) format("woff"); }
 
 .masthead {
   background-image: url(../css/images/bg-jungleruins.png);
@@ -218,15 +218,24 @@ option {
 body {
   margin: 0; }
 
-.game__first__section--header,
+.game__first__section--header {
+  font-family: bebas-neue-bold;
+  line-height: 18px;
+  font-size: 18px;
+  letter-spacing: 2px; }
+
 .game__first__section--subheader {
-  font-family: bebas-neue;
-  letter-spacing: 3px; }
+  line-height: 33px;
+  font-size: 33px;
+  letter-spacing: 3px;
+  font-family: bebas-neue-bold; }
 
 .game__first__section__paragraph--detail {
-  font-family: open-sans;
+  font-family: opensans-regular;
   font-weight: normal;
-  line-height: 22px; }
+  line-height: 16px;
+  text-align: justify;
+  font-size: 14px; }
 
 .game__first__section {
   background-image: url(../css/images/bg_big_first.png);
@@ -333,5 +342,21 @@ body {
 .game__third__section {
   background-image: url(../css/images/bg_image_3big.png);
   background-size: cover;
-  padding-block-start: 2rem;
-  color: white; }
+  padding-block-start: 1rem;
+  color: white;
+  margin-block-start: -2rem;
+  text-align: center;
+  align-items: center; }
+
+.game__third__section--header {
+  font-family: bebas-neue-bold;
+  line-height: 18px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #FFFFFF; }
+
+.game__third__section--subheader {
+  font-family: bebas-neue-bold;
+  line-height: 33px;
+  font-size: 33px;
+  letter-spacing: 3px; }

@@ -1,6 +1,25 @@
 .game__third__section {
     background-image: url(../css/images/bg_image_3big.png);
     background-size: cover;
-    padding-block-start: 2rem;
-    color: white
+    padding-block-start: 1rem;
+    color: white;
+    margin-block-start: -2rem;
+    text-align: center;
+    align-items: center;
+}
+
+.game__third__section--header {
+    font-family: bebas-neue-bold;
+    line-height: 18px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    
+}
+
+.game__third__section--subheader {
+    font-family: bebas-neue-bold;
+    line-height: 33px;
+    font-size: 33px;
+    letter-spacing: 3px;
 }

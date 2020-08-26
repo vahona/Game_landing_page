@@ -1,13 +1,20 @@
-.game__first__section--header,
-.game__first__section--subheader{
-    font-family: bebas-neue;
-    letter-spacing: 3px;
+.game__first__section--header {
+    font-family: bebas-neue-bold;
+    @include font-size-small
+}
+
+.game__first__section--subheader {
+  @include font-size-highter;
+  font-family: bebas-neue-bold;
+
 }
 
 .game__first__section__paragraph--detail {
-    font-family: open-sans;
+    font-family: opensans-regular;
     font-weight: normal;
-    line-height: 22px;
+    line-height: 16px;
+    text-align: justify;
+    font-size: 14px;
    
 }
 
