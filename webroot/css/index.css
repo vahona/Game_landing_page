@@ -328,9 +328,10 @@ body {
   font-family: open-sans; }
 
 .second__section__info {
-  margin-inline-start: 300px; }
+  margin-inline-start: 120px; }
 
 .game__third__section {
   background-image: url(../css/images/bg_image_3big.png);
   background-size: cover;
-  padding-block-start: 2rem; }
+  padding-block-start: 2rem;
+  color: white; }
