@@ -4,25 +4,67 @@
     padding-block-start: 1rem;
     color: white;
     margin-block-start: -2rem;
-    text-align: center;
-    align-items: center;
+    
 }
 
 .game__third__section--header {
     font-family: bebas-neue-bold;
     @include font-size-small;
     color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
     
 }
 
 .game__third__section--subheader {
     font-family: bebas-neue-bold;
     @include font-size-highter;
+    text-align: center;
+    justify-content: center;
 }
 
 .game__third__section__table--header {
     color:  #FFB548;
     text-transform: uppercase;
     font-family: bebas-neue-bold;
-    @include font-size-small
+    @include font-size-small;
+    margin-inline-start: 1rem;
+}
+
+table {
+    border : 1px gray solid;
+    margin-inline-end: 1rem;
+    margin-inline-start: 1rem;
+    margin-block-end: 1rem;
+    
+}
+
+.game__third__section__tablerow {
+    border-right: 1px gray solid;
+}
+
+.game__third__section__table-paragraph {
+   font-family: opensans-regular;
+   font-size: 14px;
+   line-height: 16px;
+   margin-inline-start: 1rem;
+}
+
+.game__third__section__tablecell {
+    border-top: 1px gray solid;
+    border-right: 1px gray solid;
+}
+
+.game__third__section__tablecell--first-row {
+    border-right: 1px gray solid;
+}
+
+.game__third__section__tablecell--secondrowcol {
+    border-top: 1px gray solid ;
+   
+}
+
+.game__third__section__tablecell--lastrow {
+    border-top: 1px gray solid ;
+   
 }
