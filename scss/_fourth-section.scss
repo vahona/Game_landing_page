@@ -1,0 +1,105 @@
+.game__fourth__section {
+    background-image: url(../css/images/rectangle.png);
+    // background: radial-gradient(70.52% 37.27% at 24.21% 47.47%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 99.74%);
+    padding-inline-start: 16px;
+  
+}
+
+.game__fourth__section--header {
+    font-family: bebas-neue-bold;
+    color: #FFFFFF;
+    @include  font-size-small;
+    margin-block-start: 0;
+    padding-block-start: 16px;
+}
+
+.game__fourth__section--subheader {
+    font-family: bebas-neue;
+    @include font-size-highter;
+    color: #FFFFFF;
+
+}
+
+.game__fourth__section--paragraph {
+    color: #FFFFFF;
+    font-family: opensans-regular;
+}
+
+.game__fourth__section--button {
+    background-color: rgb(252, 173, 27);
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+     text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.game__fourth__section__aboutperson {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    margin: 2rem;
+}
+
+.game__fourth__section__aboutperson--name {
+    color:  #FFB548;
+    font-family: bebas-neue;
+    font-size: 21px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    padding-block-start: 16px;
+    
+   
+}
+
+.game__fourth__section__aboutperson--project {
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-family: opensans-regular;
+    font-size:14px;
+    line-height: 22px;
+    
+   
+}
+
+.game__fourth__section__aboutperson--info {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: opensans-regular;
+}
+
+.game__fourth__section__aboutperson--date {
+    opacity: 0.5;
+    color: #FFFFFF;
+    padding-block-end: 16px;
+}
+
+
+
+
+
+.game__fourth__section__aboutperson {
+    background-image: url(../css/images/twiiter-gray.png);
+    background-repeat: no-repeat;
+    background-position: right 16px top 16px;
+}
+
+
+
+.profile {
+    float: left;
+    margin: 16px;
+    width: 40px;
+    height: 40px;
+}
+
+.game__fourth__section__aboutperson--info,
+.game__fourth__section__aboutperson--date{
+    padding-inline-start: 16px;
+}
