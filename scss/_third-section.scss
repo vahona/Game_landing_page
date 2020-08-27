@@ -4,7 +4,16 @@
     padding-block-start: 1rem;
     color: white;
     margin-block-start: -2rem;
+    background-position: bottom;
+    position: relative;
     
+    
+    
+}
+
+.third_container {
+  height: 710px;
+  
 }
 
 .game__third__section--header {
@@ -29,13 +38,17 @@
     font-family: bebas-neue-bold;
     @include font-size-small;
     margin-inline-start: 1rem;
+    margin-block-start: 5px;
+    margin-block-end: 0;
 }
 
 table {
     border : 1px gray solid;
     margin-inline-end: 1rem;
     margin-inline-start: 1rem;
-    margin-block-end: 1rem;
+    position: absolute;
+    height: 317px;
+   
     
 }
 
@@ -48,6 +61,7 @@ table {
    font-size: 14px;
    line-height: 16px;
    margin-inline-start: 1rem;
+   font-weight: normal;
 }
 
 .game__third__section__tablecell {
