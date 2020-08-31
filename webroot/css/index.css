@@ -600,7 +600,8 @@ table {
   background-repeat: no-repeat; }
 
 .footer__game__navigation__security {
-  list-style: none; }
+  list-style: none;
+  padding-bottom: 1rem; }
 
 .footer__game__list__security {
   color: #FFFFFF;
