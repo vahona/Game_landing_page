@@ -9,21 +9,123 @@
     opacity: 0.5;
     font-size: 12px;
     line-height: 16px;
+    border-top: gray solid 1px;
+    padding-top: 1rem;
+   
 }
 
 .footer__image {
+    max-width: 10%;
+}
+
+.footer__game__image__container {
     text-align: center;
+    padding-block-start: 1rem;
 }
 
 .footer__game__navigation {
     font-family: opensans-regular;
+    margin-inline-end: 1rem;
+    margin-inline-start: 0;
+    letter-spacing: 0.1em;
+    font-size: 12px;
+    line-height: 16px;
+    
+    
 }
 
 .footer__game__list, .footer__game__navigation__communication--list {
     list-style: none;
+    margin-inline-start: 28.33px;
+    margin-inline-end: 28.33;
+   
 }
 
+.footer__game__list {
+  display: flex;
+  text-transform: uppercase;
+  justify-content: space-between;
+  padding-inline-start: 0;
+  margin-inline-end: 1.5rem;
+  flex-wrap: wrap;
+
+
+
+}
+
+.footer__game__navigation__communication--list {
+  display: flex;
+  margin-inline-start: 0;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-inline-start: 0;
+
+}
+
+.footer__game__navigation__communication--list {
+    margin-inline-start: 1.5rem;
+}
+
+.footer__game__list--information {
+    margin-inline-end: 1rem;
+    
+}
+
+
 .footer__game__link {
+    display: flex;
     text-decoration: none;
     color:  #FFFFFF;
+    width: 2.5rem;
+}
+
+.footer__game__list--communication {
+    text-indent: -9999px;
+   
+}
+
+
+.facebook {
+    background-image: url(../css/images/facebook.png);
+    background-repeat: no-repeat;
+
+}
+
+.twitter {
+  background-image: url(../css/images/twitter.png);
+  background-repeat: no-repeat;
+}
+
+.vector {
+  background-image: url(../css/images/vector.png);
+  background-repeat: no-repeat;
+}
+
+.message {
+  background-image: url(../css/images/twitch.png);
+  background-repeat: no-repeat;
+}
+
+.footer__game__navigation__security {
+    list-style: none;
+ 
+}
+
+
+
+.footer__game__list__security {
+    color:  #FFFFFF;
+    list-style: none;
+    font-family: open-sans;
+    line-height: 34px;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.footer__game__link__security {
+      text-decoration: none;
+      color: white;
+      
 }
