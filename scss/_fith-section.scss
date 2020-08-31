@@ -1,18 +1,33 @@
 .game__fith__section {
-    background-image: url(../css/images/bg-imag_fith.png);
+    background-image: url(../css/images/bg-image_fith.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 523px;
+    background-size: cover;
+    // background-position: ;
+    
+   
     
 }
 
-.fith__container {
-    background-color: rgb(14, 13, 13);
-    margin-inline-start: calc(230px / 2);
-    height: 523px;
 
+.fith__container {
+   background: radial-gradient(20% 53.19% at 20% 70%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 80.15%, #080A0B 130.74%);
+   padding-bottom: 200px;
+   
 }
 
 .game__fith {
 
+}
+
+.game__button__subscribe {
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 2.94008px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.button__container {
+    text-align: center;
 }
