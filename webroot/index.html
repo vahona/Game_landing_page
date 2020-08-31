@@ -313,60 +313,65 @@
     </section>
     <section class="game__fith__section">
       <div class="fith__container">
-        <h2 class="game__fith__section--header">
-          Want to stay in touch?
-        </h2>
-        <h3 class="game__fith__section--subheader">
-          newsletter subscribe
-        </h3>
-        <p class="game__fith__section--paragraph">
-          In order to start receiving our news, all you have to do is enter your email address. Everything else will be
-          taken care
-          of by us. We will send you emails containing information about game. We don’t spam.
-        </p>
-        <form>
-          <input type="email" id="email" pattern=".+@gmail.com" value="Your email address aliciliniavopir@gmail.com"
-            required>
-        </form>
-        <button>Subscribe now</button>
+        <div class="game__fith">
+          <h2 class="game__fith__section--header">
+            Want to stay in touch?
+          </h2>
+          <h3 class="game__fith__section--subheader">
+            newsletter subscribe
+          </h3>
+          <p class="game__fith__section--paragraph">
+            In order to start receiving our news, all you have to do is enter your email address. Everything else will
+            be
+            taken care
+            of by us. We will send you emails containing information about game. We don’t spam.
+          </p>
+          <form>
+            <input type="email" id="email" pattern=".+@gmail.com" value="Your email address aliciliniavopir@gmail.com"
+              required>
+          </form>
+          <button>Subscribe now</button>
+        </div>
       </div>
     </section>
   </main>
-  <footer>
-    <img src="./css/images/logo-big.png" alt="logo">
-    <nav>
-      <ul>
-        <li><a href="./main">main</a></li>
-        <li><a href="#/about">About</a></li>
-        <li><a href="./feature">Game features</a></li>
-        <li><a href="#/system">System requerement</a></li>
-        <li><a href="#/quote">Quotes</a></li>
-      </ul>
-    </nav>
-    <nav>
-      <ul>
-        <li><a href="/facebook">facebook</a></li>
-        <li><a href="/twitter">Twitter</a></li>
-        <li><a href="/vectore">vectore</a></li>
-        <li><a href="/message">message</a></li>
-      </ul>
-    </nav>
-    <p>
-      © 2018 Outpost Games, Inc. All Rights Reserved
-    </p>
-    <nav>
-      <ul>
-        <li>
-          <a href="/privacy">Privacy Policy</a>
-        </li>
-        <li>
-          <a href="">| Terms of Services |</a>
-        </li>
-        <li>
-          <a href="">Code of conduct </a>
-        </li>
-      </ul>
-    </nav>
+  <footer class="footer__game">
+    <div class="footer__game__container">
+      <img class="footer__image" src="./css/images/logo-big.png" alt="logo">
+      <nav class="footer__game__navigation">
+        <ul class="footer__game__list">
+          <li class="footer__game__list--information"><a class="footer__game__link" href="./main">main</a></li>
+          <li class="footer__game__list--information"><a class="footer__game__link" href="#/about">About</a></li>
+          <li class="footer__game__list--information"><a class="footer__game__link" href="./feature">Game features</a></li>
+          <li class="footer__game__list--information"><a class="footer__game__link" href="#/system">System requerement</a></li>
+          <li class="footer__game__list--information"><a class="footer__game__link" href="#/quote">Quotes</a></li>
+        </ul>
+      </nav>
+      <nav class="footer__game__navigation__comunication">
+        <ul class="footer__game__navigation__communication--list">
+          <li class="footer__game__list--communication"><a class="footer__game__facebook_link facebook" href="/facebook">facebook</a></li>
+          <li class="footer__game__list--communication"><a class="footer__game__twitter_link twitter" href="/twitter">Twitter</a></li>
+          <li class="footer__game__list--communication"><a class="footer__game__vector_link vector" href="/vectore">vectore</a></li>
+          <li class="footer__game__list--communication"><a class="footer__game__message_link message" href="/message">message</a></li>
+        </ul>
+      </nav>
+      <p class="footer__game__paragraph">
+        © 2018 Outpost Games, Inc. All Rights Reserved
+      </p>
+      <nav class="footer__game__navigation__security" >
+        <ul class="footer__game__lists__of__security">
+          <li class="footer__game__list__security">
+            <a class="footer__game__link__security" href="/privacy">Privacy Policy</a>
+          </li>
+          <li class="footer__game__list__security">
+            <a class="footer__game__link__security" href="#term">| Terms of Services |</a>
+          </li>
+          <li class="footer__game__list__security">
+            <a class="footer__game__link__security" href="/code">Code of conduct </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </footer>
 </body>
 

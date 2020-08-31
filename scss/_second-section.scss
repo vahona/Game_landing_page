@@ -57,3 +57,8 @@
 .second__section__info {
     margin-inline-start: 120px;
 }
+
+summary::-webkit-details-marker {
+    display: none;
+}
+

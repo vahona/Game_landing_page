@@ -350,6 +350,9 @@ body {
 .second__section__info {
   margin-inline-start: 120px; }
 
+summary::-webkit-details-marker {
+  display: none; }
+
 .game__third__section {
   background-image: url(../css/images/bg_image_3big.png);
   background-size: cover;
@@ -505,3 +508,37 @@ table {
 
 .game__fourth__section__about--container {
   padding-block-end: 16px; }
+
+.game__fith__section {
+  background-image: url(../css/images/bg-imag_fith.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 523px; }
+
+.fith__container {
+  background-color: #0e0d0d;
+  margin-inline-start: calc(230px / 2);
+  height: 523px; }
+
+.footer__game {
+  background-color: black;
+  color: white; }
+
+.footer__game__paragraph {
+  font-family: opensans-regular;
+  opacity: 0.5;
+  font-size: 12px;
+  line-height: 16px; }
+
+.footer__image {
+  text-align: center; }
+
+.footer__game__navigation {
+  font-family: opensans-regular; }
+
+.footer__game__list, .footer__game__navigation__communication--list {
+  list-style: none; }
+
+.footer__game__link {
+  text-decoration: none;
+  color: #FFFFFF; }
