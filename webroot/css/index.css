@@ -540,16 +540,31 @@ table {
   padding-top: 1rem; }
 
 input {
-  background-color: grey;
+  background-color: #5c5b5b;
   border-radius: 2.94008px;
   padding-inline-start: 48px;
   padding-inline-end: 48px;
   padding-block-end: 15px;
   padding-block-start: 15px; }
 
+input[value="aliciliniavopir@gmail.com"] {
+  color: #FFB548;
+  padding-block-start: 1rem;
+  font-family: opensans-regular; }
+
 .game__form {
   text-align: center;
   margin: 1rem; }
+
+.game__label {
+  position: absolute;
+  color: #FFFFFF;
+  opacity: 0.5;
+  margin-inline-start: 3rem;
+  margin-block-start: 8px;
+  font-family: opensans-regular;
+  font-size: 12px;
+  line-height: 16px; }
 
 .game__fith__section--header,
 .game__fith__section--subheader,

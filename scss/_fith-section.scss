@@ -32,7 +32,7 @@
 }
 
 input {
-    background-color: grey;
+    background-color: rgb(92, 91, 91);
     border-radius: 2.94008px;
     padding-inline-start: 48px;
     padding-inline-end: 48px;
@@ -40,10 +40,25 @@ input {
     padding-block-start: 15px;
     
 }
-
+input[value="aliciliniavopir@gmail.com"]{
+    color: #FFB548;
+    padding-block-start: 1rem;
+    font-family: opensans-regular;
+}
 .game__form {
    text-align: center;
    margin: 1rem;
+}
+
+.game__label {
+    position: absolute;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-inline-start: 3rem;
+    margin-block-start: 8px;
+    font-family: opensans-regular ;
+    font-size: 12px;
+    line-height: 16px;
 }
 
 .game__fith__section--header,
