@@ -1,33 +1,67 @@
 .game__fith__section {
     background-image: url(../css/images/bg-image_fith.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    // background-position: ;
-    
-   
-    
+    background-size: 100%;
+    color: white;
+    // padding-top: 1rem;
+    background-position-x: -100px;
+}
+
+.game__fith__section--header {
+   font-family: bebas-neue-bold;
+   @include font-size-small
+}
+
+.game__fith__section--subheader {
+    font-family: bebas-neue;
+    @include  font-size-highter
+}
+.game__fith__section--paragraph {
+    font-family: opensans-regular;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
 }
 
 
 .fith__container {
-   background: radial-gradient(20% 53.19% at 20% 70%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 80.15%, #080A0B 130.74%);
-   padding-bottom: 200px;
+   background: radial-gradient(20% 53.19% at 20% 10%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 80.15%, #080A0B 130.74%);
+   padding-bottom: 30px;
+   padding-top: 1rem;
    
 }
 
-.game__fith {
+input {
+    background-color: grey;
+    border-radius: 2.94008px;
+    padding-inline-start: 48px;
+    padding-inline-end: 48px;
+    padding-block-end: 15px;
+    padding-block-start: 15px;
+    
+}
 
+.game__form {
+   text-align: center;
+   margin: 1rem;
+}
+
+.game__fith__section--header,
+.game__fith__section--subheader,
+.game__fith__section--paragraph {
+   margin-inline-start: 100px;
 }
 
 .game__button__subscribe {
     background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
     border-radius: 2.94008px;
-    padding-left: 48px;
-    padding-right: 48px;
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
 .button__container {
     text-align: center;
+    margin-bottom: 0;
 }
