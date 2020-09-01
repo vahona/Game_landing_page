@@ -4,8 +4,15 @@
     background-size: 100%;
     color: white;
     background-position-x: -100px;
+    min-height: 523px
 }
 
+.game__fith__form, .game__email {
+    margin-inline-end: 2rem;
+}
+.game__fith__form {
+  padding-block-start: 10rem;
+}
 .game__fith__section--header {
    font-family: bebas-neue-bold;
    @include font-size-small
@@ -27,24 +34,26 @@
    background: radial-gradient(20% 53.19% at 20% 10%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 80.15%, #080A0B 130.74%);
    padding-bottom: 30px;
    padding-top: 1rem;
+   min-height: 523px;
    
 }
 
 input {
     background-color: rgb(92, 91, 91);
     border-radius: 2.94008px;
-    padding-inline-start: 48px;
-    padding-inline-end: 48px;
-    padding-block-end: 15px;
-    padding-block-start: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
     
 }
 input[value="aliciliniavopir@gmail.com"]{
     color: #FFB548;
     padding-block-start: 1rem;
     font-family: opensans-regular;
+    padding-inline-start: 1rem;
+    text-align: center;
 }
-.game__form {
+.game__email{
    text-align: center;
    margin: 1rem;
 }
@@ -53,29 +62,90 @@ input[value="aliciliniavopir@gmail.com"]{
     position: absolute;
     color: #FFFFFF;
     opacity: 0.5;
-    margin-inline-start: 3rem;
+    margin-inline-start: 8rem;
     margin-block-start: 8px;
     font-family: opensans-regular ;
     font-size: 12px;
     line-height: 16px;
+    
 }
 
 .game__fith__section--header,
 .game__fith__section--subheader,
 .game__fith__section--paragraph {
-   margin-inline-start: 160px;
+   margin-inline-start: 200px;
 }
 
 .game__button__subscribe {
     background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
     border-radius: 2.94008px;
-    padding-left: 5.5rem;
-    padding-right: 5.5rem;
+    width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
+    margin-inline-start: 5%;
+    
 }
 
 .button__container {
     text-align: center;
     margin-bottom: 0;
+}
+
+
+@media (min-width : 1100px)  {
+    .game__fith__section {
+        background-size: 30%;
+        background-position-x: 20px;
+        
+    }
+
+    .fith__container {
+        background: radial-gradient(100% 700% at 10% 50%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0.15%, #080A0B 20%);
+        padding-bottom: 30px;
+        padding-top: 1rem;
+        min-height: 523px;
+       
+   
+}
+
+.game__fith__information {
+    float: right;
+    margin-inline-start: 500px;
+    margin-block-start: 50px;    
+
+}
+
+.game__fith__form {
+    margin-inline-start: 50px;
+}
+
+.button__container {
+    margin-inline-start: 3rem;
+}
+
+.game__fith__form {
+    display: flex;
+    margin-inline-start: 2rem;
+}
+
+.game__email {
+    margin-inline-start: 10rem;
+    margin: 1rem;
+    
+}
+
+
+.game__button__subscribe, input {
+    min-width: 250px;
+    
+    
+}
+
+.game__label {
+    margin-inline-start: 5rem;
+}
+
+
+
+
 }
