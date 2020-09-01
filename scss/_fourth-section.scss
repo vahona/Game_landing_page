@@ -1,7 +1,7 @@
 .game__fourth__section {
     background-image: url(../css/images/rectangle.png);
-    // background: radial-gradient(70.52% 37.27% at 24.21% 47.47%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 99.74%);
     padding-inline-start: 16px;
+    min-height: 960px;
   
 }
 
@@ -35,7 +35,7 @@
 }
 
 .button {
-     text-align: center;
+    text-align: center;
     justify-content: center;
     align-items: center;
 }
@@ -106,4 +106,43 @@
 
 .game__fourth__section__about--container {
     padding-block-end: 16px;
+}
+
+
+@media (min-width : 1100px) {
+    .game__fourth__section {
+        columns: 2;
+    }
+
+   
+
+    .lahti {
+        max-height: 183px;
+    }
+
+    .game__fourth__secton__information {
+       margin-block-start: 303px;
+       margin-inline-start: 100px;
+       margin-inline-end: 200px;
+    }
+
+    .game__fourth__section__about--container {
+        padding-block-start: 160px;
+        
+    }
+
+     .lahti {
+       margin-inline-end: 79px;
+    }
+
+    .aaron {
+        margin-inline-end: 119px;
+        margin-inline-start: -1rem;
+    }
+
+    .jada {
+        margin-inline-end: 225px;
+        margin-inline-start: -5rem;
+    }
+  
 }
