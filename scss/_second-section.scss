@@ -3,18 +3,16 @@
     background-size: cover;
     height: 515px;
     background-repeat: no-repeat;
-    
-    
-    
-    
-    
+    background-position-x: -200px;
+
 }
+
 
 .game__second__section__container {
     padding-block-start: 1rem;
     height: 515px;
     padding-inline-start: 100px;
-    background: radial-gradient(17.45% 34.77% at 31.45% 40.62%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(4, 5, 6, 0.520671) 25.99%, rgba(6, 7, 8, 0.739601) 65.03%, #080A0B 99.74%);
+    background: radial-gradient(50.45% 70.77% at 31.45% 10.62%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(4, 5, 6, 0.520671) 25.99%, rgba(6, 7, 8, 0.739601) 65.03%, #080A0B 99.74%);
 }
 
 .game__second__section__header {
@@ -62,3 +60,34 @@ summary::-webkit-details-marker {
     display: none;
 }
 
+summary:before {
+    content: '';
+    color: greenyellow;
+    width: 4rem;
+    height: 4rem;
+    display: block;
+    position: absolute;
+    border-radius: 1px solid red;
+  
+}
+
+@media (min-width : 1100px) {
+    .game__second__section {
+    background-size: cover;
+    min-height: 960px;
+   
+}
+.game__second__section__container {
+    padding-block-start: 1rem;
+    min-height: 960px;
+    background: radial-gradient(100% 100% at 10.45% 60.62%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(4, 5, 6, 0.520671) 25.99%, rgba(6, 7, 8, 0.739601) 65.03%, #080A0B 99.74%);
+}
+
+.game__second__section__detail,
+.game__second__section__header  {
+    margin-inline-start: 500px;
+}
+
+
+
+}
