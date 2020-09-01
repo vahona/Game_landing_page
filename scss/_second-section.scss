@@ -60,13 +60,11 @@ summary::-webkit-details-marker {
     display: none;
 }
 
-summary:before {
+.game__second__section__summary::before {
     content: '';
     color: greenyellow;
     width: 4rem;
     height: 4rem;
-    display: block;
-    position: absolute;
     border-radius: 1px solid red;
   
 }

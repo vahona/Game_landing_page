@@ -130,15 +130,18 @@ input[value="aliciliniavopir@gmail.com"]{
 
 .game__email {
     margin-inline-start: 10rem;
-    margin: 1rem;
+    
     
 }
-
 
 .game__button__subscribe, input {
     min-width: 250px;
     
     
+}
+
+.game__button__subscribe {
+   margin-block-start: 1rem;
 }
 
 .game__label {

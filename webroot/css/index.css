@@ -354,13 +354,11 @@ body {
 summary::-webkit-details-marker {
   display: none; }
 
-summary:before {
+.game__second__section__summary::before {
   content: '';
   color: greenyellow;
   width: 4rem;
   height: 4rem;
-  display: block;
-  position: absolute;
   border-radius: 1px solid red; }
 
 @media (min-width: 1100px) {
@@ -660,10 +658,11 @@ input[value="aliciliniavopir@gmail.com"] {
     display: flex;
     margin-inline-start: 2rem; }
   .game__email {
-    margin-inline-start: 10rem;
-    margin: 1rem; }
+    margin-inline-start: 10rem; }
   .game__button__subscribe, input {
     min-width: 250px; }
+  .game__button__subscribe {
+    margin-block-start: 1rem; }
   .game__label {
     margin-inline-start: 5rem; } }
 
