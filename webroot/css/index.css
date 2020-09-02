@@ -569,7 +569,7 @@ table {
   background-repeat: no-repeat;
   background-size: 90%;
   color: white;
-  background-position-x: -160px;
+  background-position-x: -100px;
   min-height: 523px; }
 
 .game__fith__form, .game__email {
@@ -597,7 +597,7 @@ table {
   color: #FFFFFF; }
 
 .fith__container {
-  background: radial-gradient(30% 30.19% at 10% 30%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 80.15%, #080A0B 130.74%);
+  background: radial-gradient(30% 30.19% at 20% 15%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 80.15%, #080A0B 130.74%);
   padding-bottom: 30px;
   padding-top: 1rem;
   min-height: 523px; }
