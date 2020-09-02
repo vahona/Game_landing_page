@@ -317,7 +317,7 @@ body {
 .game__second__section__container {
   padding-block-start: 1rem;
   height: 600px;
-  padding-inline-start: 190px;
+  padding-inline-start: 140px;
   background: radial-gradient(50.45% 70.77% at 31.45% 10.62%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(4, 5, 6, 0.520671) 25.99%, rgba(6, 7, 8, 0.739601) 65.03%, #080A0B 99.74%); }
 
 .game__second__section__header {
@@ -336,6 +336,9 @@ body {
   letter-spacing: 3px;
   font-size: 33px;
   color: white; }
+
+.game__second__section__navigation--list {
+  margin-top: 32px; }
 
 .game__second__section__summary {
   color: #FFB548;
@@ -646,10 +649,10 @@ input[value="aliciliniavopir@gmail.com"] {
 
 @media (min-width: 1100px) {
   .game__fith__section {
-    background-size: 30%;
+    background-size: 20%;
     background-position-x: 20px; }
   .fith__container {
-    background: radial-gradient(50% 200% at 15% 20%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0.15%, #080A0B 30%);
+    background: radial-gradient(35% 200% at 10% 25%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0.15%, #080A0B 30%);
     padding-bottom: 30px;
     padding-top: 1rem;
     min-height: 523px; }
