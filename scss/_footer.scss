@@ -13,20 +13,16 @@
    
    
 }
-.footer__game__container {
-     display: flex;
-}
+
 
 .footer__game__container2 {
     
 }
 
-.footer__link__container {
-    display: flex;
-}
+
 
 .footer__image {
-    max-width: 10%;
+    max-width: 30%;
 }
 
 .footer__game__image__container {
@@ -79,7 +75,7 @@
 }
 
 .footer__game__navigation__communication--list {
-    margin-inline-start: 1.5rem;
+    margin-inline-start: 2.5rem;
 }
 
 .main,
@@ -88,7 +84,14 @@
 .quote,
 .system {
     margin-right: 1rem;
-    padding: 1rem;
+    margin: 8px;
+}
+
+.facebook,
+.twitter,
+.vector,
+.message {
+    margin-right: 1.5rem;
 }
 
 
@@ -115,11 +118,15 @@
     
 }
 
+.footer__game__list {
+    display: flex;
+}
+
 
 
 .footer__game__list--communication {
     text-indent: -9999px;
-    margin-inline-start: 4rem;
+    // margin-inline-start: 4rem;
    
 }
 
@@ -226,6 +233,14 @@
 
 .footer__game__navigation__security {
     margin-inline-end: 4rem;
+}
+
+.footer__link__container {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__game__navigation__comunication {
+    margin-inline-end: 2rem;
 }
 
 }
