@@ -11,7 +11,7 @@
     margin-inline-end: 2rem;
 }
 .game__fith__form {
-  padding-block-start: 10rem;
+  padding-block-start: 5rem;
 }
 .game__fith__section--header {
    font-family: bebas-neue-bold;
@@ -31,7 +31,7 @@
 
 
 .fith__container {
-   background: radial-gradient(20% 45.19% at 20% 10%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 80.15%, #080A0B 130.74%);
+   background: radial-gradient(30% 35.19% at 20% 10%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 80.15%, #080A0B 130.74%);
    padding-bottom: 30px;
    padding-top: 1rem;
    min-height: 523px;
@@ -73,7 +73,7 @@ input[value="aliciliniavopir@gmail.com"]{
 .game__fith__section--header,
 .game__fith__section--subheader,
 .game__fith__section--paragraph {
-   margin-inline-start: 200px;
+   margin-inline-start: 150px;
 }
 
 .game__button__subscribe {
@@ -100,7 +100,7 @@ input[value="aliciliniavopir@gmail.com"]{
     }
 
     .fith__container {
-        background: radial-gradient(50% 200% at 15% 30%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0.15%, #080A0B 30%);
+        background: radial-gradient(50% 200% at 15% 20%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0.15%, #080A0B 30%);
         padding-bottom: 30px;
         padding-top: 1rem;
         min-height: 523px;
@@ -148,7 +148,9 @@ input[value="aliciliniavopir@gmail.com"]{
     margin-inline-start: 5rem;
 }
 
-
+.game__fith {
+    
+}
 
 
 }
