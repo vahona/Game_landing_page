@@ -569,14 +569,14 @@ table {
   background-repeat: no-repeat;
   background-size: 90%;
   color: white;
-  background-position-x: -100px;
+  background-position-x: -160px;
   min-height: 523px; }
 
 .game__fith__form, .game__email {
   margin-inline-end: 2rem; }
 
 .game__fith__form {
-  padding-block-start: 5rem; }
+  padding-block-start: 12rem; }
 
 .game__fith__section--header {
   font-family: bebas-neue-bold;
@@ -597,7 +597,7 @@ table {
   color: #FFFFFF; }
 
 .fith__container {
-  background: radial-gradient(30% 30.19% at 10% 10%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 80.15%, #080A0B 130.74%);
+  background: radial-gradient(30% 30.19% at 10% 30%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 80.15%, #080A0B 130.74%);
   padding-bottom: 30px;
   padding-top: 1rem;
   min-height: 523px; }
@@ -685,8 +685,13 @@ input[value="aliciliniavopir@gmail.com"] {
   opacity: 0.5;
   font-size: 12px;
   line-height: 16px;
-  border-top: gray solid 1px;
   padding-top: 1rem; }
+
+.footer__game__container {
+  display: flex; }
+
+.footer__link__container {
+  display: flex; }
 
 .footer__image {
   max-width: 10%; }
@@ -711,15 +716,18 @@ input[value="aliciliniavopir@gmail.com"] {
 .footer__game__list {
   display: flex;
   text-transform: uppercase;
-  justify-content: space-between;
+  margin-right: 1rem;
   padding-inline-start: 0;
   margin-inline-end: 1.5rem;
   flex-wrap: wrap; }
 
+.main {
+  margin-inline-start: 0; }
+
 .footer__game__navigation__communication--list {
   display: flex;
   margin-inline-start: 0;
-  justify-content: space-between;
+  padding-inline-start: 100px;
   align-items: center;
   flex-wrap: wrap;
   padding-inline-start: 0; }
@@ -727,8 +735,17 @@ input[value="aliciliniavopir@gmail.com"] {
 .footer__game__navigation__communication--list {
   margin-inline-start: 1.5rem; }
 
-.footer__game__list--information {
-  margin-inline-end: 1rem; }
+.main,
+.about,
+.feature,
+.quote,
+.system {
+  margin-right: 1rem;
+  padding: 1rem; }
+
+.footer__game__list--information1 {
+  margin-inline-end: 1rem;
+  margin-right: 3rem; }
 
 .footer__game__link {
   display: flex;
@@ -736,12 +753,19 @@ input[value="aliciliniavopir@gmail.com"] {
   color: #FFFFFF;
   width: 2.5rem; }
 
+.footer__game__link1 {
+  display: flex;
+  text-decoration: none;
+  color: #FFFFFF; }
+
 .footer__game__list--communication {
-  text-indent: -9999px; }
+  text-indent: -9999px;
+  margin-inline-start: 4rem; }
 
 .facebook {
   background-image: url(../css/images/facebook.png);
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  margin-inline-start: 0; }
 
 .twitter {
   background-image: url(../css/images/twitter.png);
@@ -771,3 +795,35 @@ input[value="aliciliniavopir@gmail.com"] {
 .footer__game__link__security {
   text-decoration: none;
   color: white; }
+
+.footer__game__container2 {
+  border-top: gray 1px solid; }
+
+@media (min-width: 1100px) {
+  .footer__game__container {
+    display: block; }
+  .footer__game {
+    padding-top: 1rem; }
+  .footer__game__image__container {
+    float: left; }
+  .footer__image {
+    max-width: 30%; }
+  .footer__game__list__security {
+    color: #FFFFFF;
+    list-style: none;
+    font-family: open-sans;
+    line-height: 34px;
+    font-size: 12px;
+    letter-spacing: 0.1em; }
+  .footer__image {
+    padding-bottom: 2rem; }
+  .footer__game__image__container {
+    padding-block-start: 0; }
+  .footer__game__lists__of__security {
+    display: flex; }
+  .footer__game__container2 {
+    display: flex;
+    border-top: gray 1px solid;
+    justify-content: space-between; }
+  .footer__game__navigation__security {
+    margin-inline-end: 4rem; } }
