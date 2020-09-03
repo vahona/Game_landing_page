@@ -411,10 +411,10 @@ details[open]::before {
     height: 100%;
     background: radial-gradient(100% 100% at 10.45% 60.62%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(4, 5, 6, 0.520671) 25.99%, rgba(6, 7, 8, 0.739601) 65.03%, #080A0B 99.74%); }
   .game__second__section__container {
-    padding-block-start: 10rem; }
+    padding-block-start: 258px; }
   .game__second__section__detail,
   .game__second__section__header {
-    margin-inline-start: 500px; } }
+    margin-inline-start: calc(1441.48px / 2); } }
 
 .game__third__section {
   background-image: url(../css/images/bg_image_3big.png);

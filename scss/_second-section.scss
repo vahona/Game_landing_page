@@ -115,12 +115,13 @@ details[open]::before {
 }
 
 .game__second__section__container {
-   padding-block-start: 10rem;
+   padding-block-start: 258px;
 }
 
 .game__second__section__detail,
 .game__second__section__header  {
-    margin-inline-start: 500px;
+    margin-inline-start: calc(1441.48px / 2);
+    
 }
 
 
