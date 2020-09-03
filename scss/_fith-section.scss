@@ -110,27 +110,29 @@ input[value="aliciliniavopir@gmail.com"]{
 
 .game__fith__information {
     float: right;
-    margin-inline-start: 500px;
+    margin-inline-start: 644px;
     margin-block-start: 50px; 
-    margin-inline-end: 100px;  
+    margin-inline-end: 100px; 
+     
 
 }
 
 .game__fith__form {
-    margin-inline-start: 50px;
+    margin-inline-start: auto;
+    padding-block-start: 3rem;
 }
 
 .button__container {
-    margin-inline-start: 3rem;
+    margin-inline-start: 2rem;
 }
 
 .game__fith__form {
     display: flex;
-    margin-inline-start: 2rem;
+    margin-inline-start: auto;
 }
 
 .game__email {
-    margin-inline-start: 10rem;
+    margin-inline-start: auto;
     
     
 }
@@ -146,7 +148,9 @@ input[value="aliciliniavopir@gmail.com"]{
 }
 
 .game__label {
-    margin-inline-start: 5rem;
+    margin-inline-start: auto;
+   
+
 }
 
 .input {
