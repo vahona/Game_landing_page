@@ -21,19 +21,20 @@
 .game__first__section {
     background-image: url(../css/images/bg_big_first.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     color: white;
+}
 
-}
-.second__section__info {
-  margin-inline-start: 3rem;
-}
+// }
+// .second__section__info {
+//   margin-inline-start: 3rem;
+// }
 
 .container {
   background: rgba(10, 0, 0, 0.8);
   top: 0;
   left: 0;
-  padding: 32px;
+  padding: 40px;
 }
 
 .game__first__section--paragraph {
@@ -42,29 +43,23 @@
 
 
 
-.game__image {
-    max-width: 100%;
-    max-height: 100%;
-}
 
 .game__images__lists {
     list-style: none;
     margin: 0;
     padding: 0;
     position: relative;
-    padding-bottom: calc(100% * 273 / 249);
-    padding-top: 50%;
 }
 
-.game__images__list {
-    position: absolute;
-}
+// .game__images__list {
+//     position: absolute;
+// }
 
 
 .game__images__screenshot1 {
      top: 0;
      left: 0;
-     right : calc(100% * 24 / 249);
+    //  right : calc(100% * 24 / 249);
      z-index: 3;
      
    
@@ -80,8 +75,8 @@
 
 .game__images__screenshot2 {
   z-index: 2;
-  top: 55%;
-  transform: translateY(-50%) scale(calc(249 / 273));
+  top: 50%;
+  transform: translateY(-50%) scale(calc(249 / 283));
   right: calc(100% * 12 / 249);
   left: calc(100% * 12 / 249);
   transform-origin: 100% 0%;
@@ -90,8 +85,8 @@
 
 .game__images__screenshot3 {
   z-index: 1;
-  top: calc(100% * 23 / 249);
-  left: calc(100% * 23 / 249);
+  top: calc(100% * 10 / 249);
+  left: calc(100% * 20 / 249);
   bottom : calc(100% * 23 / 249);
 }
 

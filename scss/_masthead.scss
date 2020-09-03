@@ -9,7 +9,16 @@
 
 .masthead__secondpart {
     padding-block-start: 200px;
+    
   
+}
+
+.game__menu {
+    right: 16px;
+}
+
+.bar {
+  right: 1rem;
 }
 
 
@@ -28,7 +37,7 @@
    margin-inline-start: 1rem;
    margin-block-end: 3rem;
    position: absolute;
-   margin-top: 0;
+   margin-top: -9px;
 }
 
 .game__languages__choice {
@@ -54,8 +63,8 @@ select {
 
 svg {
   position: absolute;
-  top: 16px;
-  right: 1rem;
+  top: 24px;
+  right: 8rem;
 
 
 }
@@ -71,16 +80,24 @@ option {
    padding-block-end: 50px;
 }
 
-.bar {
-  float: right;
-  margin-block-start: -50px;
 
- 
-}
 .bar-image {
   left: 4rem;
   top:0;
   position: relative;
+}
+
+.bar {
+ background-color: white;
+ height: 2rem;
+ width: 1px;
+ display: block;
+ position: absolute;
+ right: 5rem;
+ top: 1.5rem
+ 
+
+ 
 }
 
 
@@ -102,7 +119,8 @@ option {
 
 .logo__game__header {
  background-size: 50%;
- height: 100px;
+ height: 60px;
+ width: 10%;
 }
 
 .bar-icon {
@@ -138,8 +156,9 @@ option {
 }
 
 .bar {
-   bottom: 100px; 
-} 
+ right: 13rem;
+ 
+}
 
 
 .logo__link_main,
@@ -162,6 +181,10 @@ option {
     top: 100px;
     bottom: 130px;
   
+}
+
+.game__menu {
+    display: none;
 }
 
 }

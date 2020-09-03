@@ -12,7 +12,9 @@
   
   
  
-}
+}  
+
+
 
 .logo__game__title {
   font-family: bebas-neue-bold;
@@ -29,6 +31,8 @@
   @include font-size-small;
   color: #FFFFFF;
 }
+
+
 
 
  
@@ -64,15 +68,23 @@
   background-image: url(../css/images/scroll_down.png);
   background-repeat: no-repeat;
   background-position: 15px 30px;
-  max-width: 100px;
   text-transform: uppercase;
   font-family: bebas-neue;
   line-height: 22px;
   font-size: 12px;
   letter-spacing: 2px;
 
+
   
  
+}
+
+.masthead__thirdpart {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: 50% 50% ;
+  display: block
 }
 
 .logo__game__navigation {
@@ -100,12 +112,20 @@
   position: relative;
 }
 
+
 .logo__story {
   text-align: center;
   justify-content: center;
   
   
   
+}
+
+.masthead__firstpart__list {
+  font-family: opensans-regular;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
 }
 
 .logo__game__navigation {

@@ -72,12 +72,18 @@
   background-image: url(../css/images/scroll_down.png);
   background-repeat: no-repeat;
   background-position: 15px 30px;
-  max-width: 100px;
   text-transform: uppercase;
   font-family: bebas-neue;
   line-height: 22px;
   font-size: 12px;
   letter-spacing: 2px; }
+
+.masthead__thirdpart {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: 50% 50%;
+  display: block; }
 
 .logo__game__navigation {
   margin-inline-end: 1rem; }
@@ -98,6 +104,11 @@
   .logo__story {
     text-align: center;
     justify-content: center; }
+  .masthead__firstpart__list {
+    font-family: opensans-regular;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em; }
   .logo__game__navigation {
     display: none; }
   .masthead__thirdpart {
@@ -117,6 +128,12 @@
 .masthead__secondpart {
   padding-block-start: 200px; }
 
+.game__menu {
+  right: 16px; }
+
+.bar {
+  right: 1rem; }
+
 .logo__link_main,
 .logo__link_about,
 .logo__link_feature,
@@ -129,7 +146,7 @@
   margin-inline-start: 1rem;
   margin-block-end: 3rem;
   position: absolute;
-  margin-top: 0; }
+  margin-top: -9px; }
 
 .game__languages__choice {
   float: right;
@@ -149,8 +166,8 @@ select {
 
 svg {
   position: absolute;
-  top: 16px;
-  right: 1rem; }
+  top: 24px;
+  right: 8rem; }
 
 option {
   background-color: black; }
@@ -161,14 +178,19 @@ option {
   padding-block-start: 100px;
   padding-block-end: 50px; }
 
-.bar {
-  float: right;
-  margin-block-start: -50px; }
-
 .bar-image {
   left: 4rem;
   top: 0;
   position: relative; }
+
+.bar {
+  background-color: white;
+  height: 2rem;
+  width: 1px;
+  display: block;
+  position: absolute;
+  right: 5rem;
+  top: 1.5rem; }
 
 @media (min-width: 1100px) {
   select {
@@ -182,7 +204,8 @@ option {
     display: block; }
   .logo__game__header {
     background-size: 50%;
-    height: 100px; }
+    height: 60px;
+    width: 10%; }
   .bar-icon {
     display: none; }
   .game-icon2 {
@@ -202,7 +225,7 @@ option {
     margin-inline-end: 3rem;
     bottom: 100px; }
   .bar {
-    bottom: 100px; }
+    right: 13rem; }
   .logo__link_main,
   .logo__link_about,
   .logo__link_feature,
@@ -217,7 +240,9 @@ option {
     justify-content: center;
     align-items: center;
     top: 100px;
-    bottom: 130px; } }
+    bottom: 130px; }
+  .game__menu {
+    display: none; } }
 
 body {
   margin: 0; }
@@ -244,40 +269,27 @@ body {
 .game__first__section {
   background-image: url(../css/images/bg_big_first.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   color: white; }
-
-.second__section__info {
-  margin-inline-start: 3rem; }
 
 .container {
   background: rgba(10, 0, 0, 0.8);
   top: 0;
   left: 0;
-  padding: 32px; }
+  padding: 40px; }
 
 .game__first__section--paragraph {
   border-top: 3px solid white; }
-
-.game__image {
-  max-width: 100%;
-  max-height: 100%; }
 
 .game__images__lists {
   list-style: none;
   margin: 0;
   padding: 0;
-  position: relative;
-  padding-bottom: calc(100% * 273 / 249);
-  padding-top: 50%; }
-
-.game__images__list {
-  position: absolute; }
+  position: relative; }
 
 .game__images__screenshot1 {
   top: 0;
   left: 0;
-  right: calc(100% * 24 / 249);
   z-index: 3; }
 
 .game__image {
@@ -289,16 +301,16 @@ body {
 
 .game__images__screenshot2 {
   z-index: 2;
-  top: 55%;
-  transform: translateY(-50%) scale(calc(249 / 273));
+  top: 50%;
+  transform: translateY(-50%) scale(calc(249 / 283));
   right: calc(100% * 12 / 249);
   left: calc(100% * 12 / 249);
   transform-origin: 100% 0%; }
 
 .game__images__screenshot3 {
   z-index: 1;
-  top: calc(100% * 23 / 249);
-  left: calc(100% * 23 / 249);
+  top: calc(100% * 10 / 249);
+  left: calc(100% * 20 / 249);
   bottom: calc(100% * 23 / 249); }
 
 .game__images__screenshot1,
