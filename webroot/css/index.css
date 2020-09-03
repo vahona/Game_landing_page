@@ -261,6 +261,9 @@ body {
   letter-spacing: 3px;
   font-family: bebas-neue-bold; }
 
+span {
+  font-weight: 700; }
+
 .game__first__section__paragraph--detail {
   font-family: opensans-regular;
   font-weight: normal;
@@ -271,8 +274,9 @@ body {
 .game__first__section {
   background-image: url(../css/images/bg_big_first.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  color: white; }
+  background-size: cover;
+  color: white;
+  min-height: auto; }
 
 .container {
   background: rgba(10, 0, 0, 0.8);
@@ -324,14 +328,15 @@ body {
 .game__second__section {
   background-image: url(../css/images/bg_image_big.png);
   background-size: cover;
-  height: 600px;
+  height: 100%;
   background-repeat: no-repeat;
   background-position-x: -200px; }
 
 .game__second__section__container {
   padding-block-start: 1rem;
-  height: 600px;
+  height: 100%;
   padding-inline-start: 140px;
+  padding-block-end: 50%;
   background: radial-gradient(50.45% 70.77% at 31.45% 10.62%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(4, 5, 6, 0.520671) 25.99%, rgba(6, 7, 8, 0.739601) 65.03%, #080A0B 99.74%); }
 
 .game__second__section__header {
@@ -343,13 +348,14 @@ body {
 
 .game__second__section__navigation {
   list-style: none;
-  padding-inline-start: 48px; }
+  padding-inline-start: 3rem; }
 
 .game__second__section__header--info {
   font-family: bebas-neue;
   letter-spacing: 3px;
   font-size: 33px;
-  color: white; }
+  color: white;
+  line-height: 33px; }
 
 .game__second__section__navigation--list {
   margin-top: 32px; }
@@ -376,23 +382,36 @@ summary::-webkit-details-marker {
 
 .game__second__section__summary::before {
   content: '';
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1rem;
+  height: 1rem;
   background-color: black;
   border-radius: 50%;
   position: absolute;
-  border: 3px solid white;
+  border: 2px solid white;
   top: 0;
   left: -3rem; }
+
+.game__second__section__detail {
+  position: relative; }
+
+details[open]::before {
+  content: '';
+  width: 2px;
+  height: calc(100% + 32px);
+  background-color: white;
+  position: absolute;
+  left: calc(0.5rem - 3rem); }
 
 @media (min-width: 1100px) {
   .game__second__section {
     background-size: cover;
-    min-height: 960px; }
+    height: 100%; }
   .game__second__section__container {
     padding-block-start: 1rem;
-    min-height: 960px;
+    height: 100%;
     background: radial-gradient(100% 100% at 10.45% 60.62%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(4, 5, 6, 0.520671) 25.99%, rgba(6, 7, 8, 0.739601) 65.03%, #080A0B 99.74%); }
+  .game__second__section__container {
+    padding-block-start: 10rem; }
   .game__second__section__detail,
   .game__second__section__header {
     margin-inline-start: 500px; } }

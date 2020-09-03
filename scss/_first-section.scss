@@ -9,6 +9,10 @@
 
 }
 
+span {
+  font-weight: 700;
+}
+
 .game__first__section__paragraph--detail {
     font-family: opensans-regular;
     font-weight: normal;
@@ -18,11 +22,13 @@
    
 }
 
+
 .game__first__section {
     background-image: url(../css/images/bg_big_first.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     color: white;
+    min-height: auto;
 }
 
 // }
