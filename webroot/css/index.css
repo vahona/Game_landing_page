@@ -117,7 +117,9 @@
   .logo__story {
     justify-content: center;
     text-align: center;
-    align-items: center; } }
+    align-items: center;
+    margin-inline-start: auto;
+    margin-inline-end: auto; } }
 
 .asthead__firstpart {
   padding: 1rem; }
