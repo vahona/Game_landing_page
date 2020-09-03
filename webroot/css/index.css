@@ -562,7 +562,9 @@ table {
     margin-inline-start: -1rem; }
   .jada {
     margin-inline-end: 225px;
-    margin-inline-start: -5rem; } }
+    margin-inline-start: -5rem; }
+  .game__fourth__section--button {
+    margin-block-start: 4rem; } }
 
 .game__fith__section {
   background-image: url(../css/images/bg-image_fith.png);
