@@ -493,7 +493,7 @@ table {
 .game__fourth__section {
   background-image: url(../css/images/rectangle.png);
   padding-inline-start: 16px;
-  min-height: 960px; }
+  height: 100%; }
 
 .game__fourth__section--header {
   font-family: bebas-neue-bold;
