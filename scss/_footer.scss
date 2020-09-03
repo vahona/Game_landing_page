@@ -178,8 +178,9 @@
       
 }
 
-.footer__game__container2 {
-    border-top: gray 1px solid;
+.footer__game__container {
+    border-bottom: gray 1px solid;
+    padding-block-end: 1rem;
 }
 
 @media (min-width : 1100px) {
@@ -227,7 +228,6 @@
 
 .footer__game__container2 {
     display: flex;
-    border-top: gray 1px solid;
     justify-content: space-between;
 }
 
@@ -242,5 +242,6 @@
 .footer__game__navigation__comunication {
     margin-inline-end: 2rem;
 }
+
 
 }
