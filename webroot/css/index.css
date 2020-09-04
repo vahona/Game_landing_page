@@ -327,17 +327,17 @@ span {
 
 .game__second__section {
   background-image: url(../css/images/bg_image_big.png);
-  background-size: cover;
-  height: 100%;
+  min-height: 100%;
+  background-size: 170%;
   background-repeat: no-repeat;
-  background-position-x: -200px; }
+  background-position-x: -100px; }
 
 .game__second__section__container {
   padding-block-start: 1rem;
   height: 100%;
   padding-inline-start: 140px;
   padding-block-end: 50%;
-  background: radial-gradient(50.45% 70.77% at 31.45% 10.62%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(4, 5, 6, 0.520671) 25.99%, rgba(6, 7, 8, 0.739601) 65.03%, #080A0B 99.74%); }
+  background: radial-gradient(50.45% 40.77% at 31.45% 10.62%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(4, 5, 6, 0.520671) 25.99%, rgba(6, 7, 8, 0.739601) 65.03%, #080A0B 99.74%); }
 
 .game__second__section__header {
   font-family: bebas-neue;
@@ -405,7 +405,7 @@ details[open]::before {
 @media (min-width: 1100px) {
   .game__second__section {
     background-size: cover;
-    height: 100%; }
+    background-position-x: -200px; }
   .game__second__section__container {
     padding-block-start: 1rem;
     height: 100%;
