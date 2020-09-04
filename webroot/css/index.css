@@ -492,6 +492,7 @@ table {
 
 .game__fourth__section {
   background-image: url(../css/images/rectangle.png);
+  background-color: black;
   padding-inline-start: 16px;
   height: 100%; }
 
@@ -611,7 +612,7 @@ table {
   margin-inline-end: 2rem; }
 
 .game__fith__form {
-  padding-block-start: 12rem; }
+  padding-block-start: 3rem; }
 
 .game__fith__section--header {
   font-family: bebas-neue-bold;
