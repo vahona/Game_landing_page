@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game landing page</title>
+  <link rel="stylesheet" href="./webroot/css/index.css">
+</head>
+
+<body>
+  <section class="masthead">
+    <header class="masthead__firstpart">
+      <svg class="logo__game__header" width="34" height="34" viewBox="0 0 34 34" fill="none"
+        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <rect x="0.0834961" y="0.839783" width="32.9644" height="32.9644" fill="url(#pattern0)" />
+        <defs>
+          <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+            <use xlink:href="#image0" transform="scale(0.00617284)" />
+          </pattern>
+          <image id="image0" width="162" height="162"
+            xlink:href="data:image/png;base64,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" />
+        </defs>
+      </svg>
+      <div class="masthead__firstpart__list">
+        <nav class="logo-navigation">
+          <ul class="logo__navigation__list">
+            <li class="logo__link logo__link_main"><a href="/main" class="logo__link__anchore"></a>main</li>
+            <li class="logo__link logo__link_about"><a href="/about" class="logo__link__anchore"></a>about</li>
+            <li class="logo__link logo__link_feature"><a href="/game_feature" class="logo__link__anchore"></a>Feature
+              game
+            </li>
+            <li class="logo__link logo__link_system"><a href="/system_requerement"
+                class="logo__link__anchore"></a>system_requerement</li>
+            <li class="logo__link logo__link_quote"><a href="/quote" class="logo__link__anchore"></a>Quote</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="game__languages__choice">
+        <select name="language" id="tl_select">
+          <option value=""> ENG </option>
+          <option value="russ"> RUSS </option>
+          <option value="fra"> FRA </option>
+          <option value="deu"> DEU </option>
+        </select>
+      </div>
+      <div class="bar"></div>
+      <svg class="game__menu" width="33" height="26" viewBox="0 0 33 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#filter0_d)">
+          <rect x="13.9985" y="15.5166" width="13.585" height="1.5" rx="0.75" fill="white" stroke="black" />
+          <rect x="5.09619" y="8.01657" width="22.4873" height="1.5" rx="0.75" fill="white" stroke="black" />
+          <rect x="5.09619" y="0.516571" width="22.4873" height="1.5" rx="0.75" fill="white" stroke="black" />
+        </g>
+        <defs>
+          <filter id="filter0_d" x="0.596191" y="0.016571" width="31.4873" height="25.5" filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+            <feOffset dy="4" />
+            <feGaussianBlur stdDeviation="2" />
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+          </filter>
+        </defs>
+      </svg>
+      <div class="game__box__union">
+        <a href="/box" class="game__icone">
+          <svg class="game-icon1" width="31" height="31" viewBox="0 0 31 31" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M10.5514 2.85846C12.1356 3.47967 13.667 4.30015 15.1104 5.3023C15.2747 5.41365 15.4625 5.47225 15.6502 5.47225C15.838 5.47225 16.0257 5.41365 16.19 5.3023C17.6334 4.30015 19.1648 3.47381 20.7491 2.8526C21.107 2.71195 21.3476 2.36032 21.3417 1.97352C21.3417 1.58673 21.1011 1.24096 20.7373 1.10616C17.5689 -0.0952431 13.7315 -0.0952431 10.569 1.10616C10.211 1.24096 9.9646 1.59259 9.9646 1.97352C9.9646 2.35445 10.1876 2.71781 10.5514 2.85846Z"
+              fill="#FFB548" />
+            <path
+              d="M24.1587 2.86378C23.8594 2.65866 23.478 2.64108 23.1553 2.82276C21.4009 3.83076 19.7052 4.98529 18.1034 6.25702C17.8922 6.42697 17.7631 6.67898 17.7513 6.94856C17.7396 7.21814 17.8452 7.48187 18.0388 7.6694C21.3599 10.8282 25.96 20.5157 27.0162 24.9697C24.7278 21.1017 19.6231 12.0003 16.2845 8.88839C15.9265 8.55434 15.3633 8.55434 15.0053 8.88839C11.6608 12.0003 6.5737 21.1076 4.28536 24.9814C5.34152 20.5274 9.92992 10.8282 13.2509 7.6694C13.4504 7.48187 13.5561 7.21814 13.5443 6.94856C13.5326 6.67898 13.4035 6.42697 13.1923 6.25702C11.5904 4.98529 9.88885 3.83076 8.14033 2.82276C7.82935 2.64108 7.43622 2.65866 7.13698 2.86378C3.05905 5.67097 0.624023 10.2832 0.624023 15.206C0.624023 18.8044 1.92075 22.2738 4.28536 24.9814C7.11351 28.2984 11.2501 30.209 15.6449 30.209C20.0397 30.209 24.1822 28.3043 27.0162 24.9755C29.369 22.2797 30.6658 18.8103 30.6658 15.206C30.6658 10.2832 28.2307 5.67097 24.1587 2.86378Z"
+              fill="#FFB548" />
+          </svg>
+        </a>
+        <a href="/union" class="game__icon">
+          <svg class="game-icon2" width="31" height="31" viewBox="0 0 31 31" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M15.7746 30.2089C24.0936 30.2089 30.8375 23.4932 30.8375 15.2089C30.8375 6.92465 24.0936 0.208923 15.7746 0.208923C7.45558 0.208923 0.71167 6.92465 0.71167 15.2089C0.71167 16.7369 0.941106 18.2116 1.36754 19.6006C1.47636 19.6201 1.6523 19.6647 1.90866 19.7395L1.50834 13.467C1.50834 13.352 1.7031 13.2967 1.88153 13.246C1.97946 13.2182 2.07247 13.1918 2.12567 13.1577C2.27094 13.0663 5.26258 14.154 5.42239 14.2262L9.248 15.9495C10.2359 15.3285 11.4175 15.0782 12.5797 15.2467L16.0566 11.0252C16.1002 7.65576 18.8604 4.94092 22.2551 4.93611C25.4269 4.9698 28.0564 7.37657 28.3567 10.5102C28.6763 13.8989 26.1775 16.9026 22.7684 17.2251L16.9767 21.3407C16.6232 23.1457 15.3254 24.6235 13.5724 25.2108C10.8848 26.1157 7.96472 24.6813 7.05917 22.0049L5.04467 21.3407C4.89531 21.2934 2.15386 20.1577 1.41129 19.7406C3.34051 25.8099 9.04168 30.2089 15.7746 30.2089ZM25.3546 11.0974C25.3546 12.7988 23.967 14.178 22.2553 14.178C20.5436 14.178 19.156 12.7988 19.156 11.0974C19.156 9.39595 20.5436 8.01669 22.2553 8.01669C23.967 8.01669 25.3546 9.39595 25.3546 11.0974ZM24.3236 11.0974C24.3236 12.2325 23.3978 13.1528 22.2557 13.1528C21.1137 13.1528 20.1879 12.2325 20.1879 11.0974C20.1879 9.96222 21.1137 9.04199 22.2557 9.04199C23.3978 9.04199 24.3236 9.96222 24.3236 11.0974ZM10.5804 23.1121C10.9969 23.3142 11.4569 23.4201 11.9218 23.4201C12.2753 23.4201 12.6191 23.3624 12.9581 23.2516C13.7377 22.9821 14.3721 22.4189 14.7304 21.6824C15.4761 20.1469 14.8272 18.3081 13.2873 17.5669C13.0259 17.4417 12.7208 17.5476 12.5949 17.8027C12.469 18.0627 12.5755 18.3659 12.8322 18.4911C12.8661 18.5055 12.9 18.5199 12.9338 18.5392C13.9508 19.0591 14.343 20.2961 13.82 21.307C13.297 22.3178 12.0477 22.7077 11.0356 22.1879C10.7741 22.0627 10.469 22.1686 10.3431 22.4237C10.2172 22.6837 10.3238 22.9869 10.5804 23.1121Z"
+              fill="#FFB548" />
+          </svg>
+        </a>
+      </div>
+    </header>
+    <header class="masthead__secondpart">
+      <h1 class="logo__game__title">
+        Survive at all costs
+      </h1>
+      <h4 class="logo__game__subtitle">
+        Experiance new social battle royale game
+      </h4>
+      <button class="logo__game__button">
+        <p>
+          Buy now on steam | $14.99
+        </P>
+      </button>
+    </header>
+    <header class="masthead__thirdpart">
+      <div class="logo__story">
+        <p class="logo__story__game__paragraph">The story</p>
+      </div>
+      <nav class="logo__game__navigation">
+        <ul class="logo__game__lists">
+          <li class="logo__game__list">●</li>
+          <li class="logo__game__list">o</li>
+          <li class="logo__game__list">o</li>
+          <li class="logo__game__list">o</li>
+          <li class="logo__game__list">→</li>
+        </ul>
+      </nav>
+    </header>
+  </section>
+  <main>
+    <section class="game__first__section">
+      <div class="container">
+        <div class="game__first__section__heading">
+          <h1 class="game__first__section--header">
+            what is sos?
+          </h1>
+          <h2 class="game__first__section--subheader">
+            Social battle royale game
+          </h2>
+        </div>
+        <div class="game__first__section--paragraph">
+          <p class="game__first__section__paragraph--detail">
+            Each round, <span> you </span> and <span>15</span> other contestants compete to
+            escape a deadly island filled with monsters. The trick is: <span>three</span> people can survive. Will you
+            run
+            solo or form friendships with others to escape?
+          </p>
+          <p class="game__first__section__paragraph--detail">
+            Making the right decisions could be the
+            difference between life and death.
+          </p>
+        </div>
+        <div class="game__images">
+          <ul class="game__images__lists">
+            <li class="game__images__list"> <img class="game__images__screenshot1 game__image"
+                src="./css/images/screanshoot1.png" alt="screen1"></li>
+            <li class="game__images__list"> <img class="game__images__screenshot2 game__image"
+                src="./css/images/screanshoot2.png" alt="screen2"></li>
+            <li class="game__images__list"> <img class="game__images__screenshot3 game__image"
+                src="./css/images/screanshoot3.png" alt="screen"></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="game__second__section">
+      <article class="game__second__section__container">
+        <header class=" game__second__section__header">
+          <h3 class=" game__second__section__header--title">Features</h3>
+          <p class="game__second__section__header--info">What's so special?</p>
+        </header>
+        <div class="game__second__section--navigation">
+          <ul class="game__second__section__navigation">
+            <li class="game__second__section__navigation--list">
+              <details class="game__second__section__detail">
+                <summary class="game__second__section__summary">Survive at all costs</summary>
+                <p>You have 30 minutes to find a relic, signal for extraction, and grab
+                  one of three spots on the rescue chopper.</p>
+              </details>
+            </li>
+            <li class="game__second__section__navigation--list">
+              <details class="game__second__section__detail">
+                <summary class="game__second__section__summary">Create allies and enemies</summary>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere repudiandae, impedit nam, reiciendis
+                  commodi
+                  itaque cupiditate minima inventore molestiae voluptatum ad, dolor quia ea accusantium nesciunt? Sequi,
+                  itaque.
+                  Quidem, natus.
+                </p>
+              </details>
+            </li>
+            <li class="game__second__section__navigation--list">
+              <details class="game__second__section__detail">
+                <summary class="game__second__section__summary">Impress your audience</summary>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nobis, qui modi, ratione ea saepe eum
+                  iure
+                  officiis iusto mollitia nihil unde odio, possimus quo consectetur praesentium harum nesciunt illum?
+                </p>
+              </details>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </section>
+    </section>
+    <section class="game__third__section">
+      <div class="third_container">
+        <div class="game__third__section--info">
+          <h1 class="game__third__section--header">
+            Can My Computer Run this game?
+          </h1>
+          <h2 class="game__third__section--subheader">
+            system requirements
+          </h2>
+          <table class="game__third__section__table">
+            <tr class="game__third__section__tablerow">
+              <td class="game__third__section__tablecell--first-row">
+                <h4 class="game__third__section__table--header">
+                  os:
+                </h4>
+                <p class="game__third__section__table-paragraph">
+                  Windows 7 64-bit only
+                  (No OSX support at this time)
+                </p>
+              </td>
+              <td class="game__third__section__tablecell--secondcol">
+                <h4 class="game__third__section__table--header">
+                  Processor:
+                </h4>
+                <p class="game__third__section__table-paragraph">
+                  Intel Core 2 Duo @ 2.4 GHZ or AMD Athlon X2 @ 2.8GHZ
+                </p>
+              </td>
+            </tr>
+            <tr class="game__third__section__tablerow">
+              <td class="game__third__section__tablecell">
+                <h4 class="game__third__section__table--header">
+                  memory:
+                </h4>
+                <p class="game__third__section__table-paragraph">
+                  8 GB RAM
+                </p>
+              </td>
+              <td class="game__third__section__tablecell--secondrowcol">
+                <h4 class="game__third__section__table--header">
+                  storage:
+                </h4>
+                <p class="game__third__section__table-paragraph">
+                  8 GB available space
+                </p>
+              </td>
+            </tr>
+            <tr class="game__third__section__tablerow">
+              <td class="game__third__section__tablecell--lastrow" colspan="2">
+                <h4 class="game__third__section__table--header">
+                  Graphics:
+                </h4>
+                <p class="game__third__section__table-paragraph">
+                  NVIDIA GeForce GTX 660 2GB or
+                  AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)
+                </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="game__fourth__section">
+      <div class="game__fourth__secton__information">
+        <h1 class="game__fourth__section--header">
+          What people think?
+        </h1>
+        <h2 class="game__fourth__section--subheader">Press quotes</h2>
+        <p class="game__fourth__section--paragraph">
+          Our goal is to create a product and service that you’re satisfied with and use it every day. This is why we’re
+          constantly working on our services to make it better every day and really listen to what our users has to say.
+        </p>
+        <div class="button">
+          <button class="game__fourth__section--button">
+            Read more testemonial
+          </button>
+        </div>
+      </div>
+      <div class="game__fourth__section__about--container">
+        <article class="game__fourth__section__aboutperson lahti">
+          <a href="/profile">
+            <img src="./css/images/lahti-imagebig.png" class="profile" alt="Jada">
+          </a>
+          <h3 class="game__fourth__section__aboutperson--name">
+            Evan Lahti
+          </h3>
+          <h4 class="game__fourth__section__aboutperson--project">
+            PC Gamer
+          </h4>
+          <p class="game__fourth__section__aboutperson--info">“One of my gaming highlights of the year.”</p>
+          <footer class="game__fourth__section__aboutperson--date">October 18, 2018</footer>
+        </article>
+        <article class="game__fourth__section__aboutperson jada">
+          <a href="/profile">
+            <img src="./css/images/jada-imagebig.png" class="profile" alt="Jada">
+          </a>
+          <h3 class="game__fourth__section__aboutperson--name">
+            Jada Griffin
+          </h3>
+          <h4 class="game__fourth__section__aboutperson--project">
+            Nerdreactor
+          </h4>
+          <p class="game__fourth__section__aboutperson--info">
+            “The next big thing in the world of streaming and survival games.”
+          </p>
+          <footer class="game__fourth__section__aboutperson--date">December 21, 2018</footer>
+        </article class="game__fourth__section__aboutperson">
+        <article class="game__fourth__section__aboutperson aaron">
+          <a href="/profile">
+            <img src="./css/images/aaron-imagebig.png" class="profile" alt="Aaron">
+          </a>
+          <h3 class="game__fourth__section__aboutperson--name">
+            Aaron Williams
+          </h3>
+          <h4 class="game__fourth__section__aboutperson--project">
+            Uproxx
+          </h4>
+          <p class="game__fourth__section__aboutperson--info">
+            “Snoop Dogg Playing The Wildly Entertaining ‘SOS’ Is Ridiculous.”
+          </p>
+          <footer class="game__fourth__section__aboutperson--date">December 24, 2018</footer>
+        </article>
+      </div>
+    </section>
+    <section class="game__fith__section">
+      <div class="fith__container">
+        <div class="game__fith">
+          <div class="game__fith__information">
+            <h2 class="game__fith__section--header">
+              Want to stay in touch?
+            </h2>
+            <h3 class="game__fith__section--subheader">
+              newsletter subscribe
+            </h3>
+            <p class="game__fith__section--paragraph">
+              In order to start receiving our news, all you have to do is enter your email address. Everything else will
+              be
+              taken care
+              of by us. We will send you emails containing information about game. We don’t spam.
+            </p>
+            <form class="game__fith__form">
+              <div class="game__email">
+                <label for="email" class="game__label">Your email address</label>
+                <input type="email" id="email" pattern=".+@gmail.com" value="aliciliniavopir@gmail.com" required>
+              </div>
+              <div class="button__container">
+                <button class="game__button__subscribe">Subscribe now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer__game">
+    <div class="footer__game__container">
+      <div class="footer__game__image__container">
+        <img class="footer__image" src="./css/images/logo-big.png" alt="logo">
+      </div>
+      <div class="footer__link__container">
+        <nav class="footer__game__navigation">
+          <ul class="footer__game__list">
+            <li class="footer__game__list--information main"><a class="footer__game__link1" href="./main">main</a></li>
+            <li class="footer__game__list--information about"><a class="footer__game__link1" href="#/about">About</a>
+            </li>
+            <li class="footer__game__list--information feature"><a class="footer__game__link1" href="./feature">Game
+                features</a>
+            </li>
+            <li class="footer__game__list--information system"><a class="footer__game__link1" href="#/system">System
+                requerement</a></li>
+            <li class="footer__game__list--information quote"><a class="footer__game__link1" href="#/quote">Quotes</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__game__navigation__comunication">
+          <ul class="footer__game__navigation__communication--list">
+            <li class="footer__game__list--communication facebook"><a class="footer__game__link facebook_anchore"
+                href="/facebook">facebook</a></li>
+            <li class="footer__game__list--communication twitter"><a class="footer__game__link twitter_anchore"
+                href="/twitter">Twitter</a></li>
+            <li class="footer__game__list--communication vector"><a class="footer__game__link vectore_anchore "
+                href="/vectore">vectore</a></li>
+            <li class="footer__game__list--communication message"><a class="footer__game__link message_anchore"
+                href="/message">message</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="footer__game__container2">
+      <p class="footer__game__paragraph">
+        © 2018 Outpost Games, Inc. All Rights Reserved
+      </p>
+      <nav class="footer__game__navigation__security">
+        <ul class="footer__game__lists__of__security">
+          <li class="footer__game__list__security">
+            <a class="footer__game__link__security" href="/privacy">Privacy Policy</a>
+          </li>
+          <li class="footer__game__list__security">
+            <a class="footer__game__link__security" href="#term">| Terms of Services |</a>
+          </li>
+          <li class="footer__game__list__security">
+            <a class="footer__game__link__security" href="/code">Code of conduct </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+
+</html>
