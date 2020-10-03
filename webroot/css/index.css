@@ -692,6 +692,8 @@ input[value="aliciliniavopir@gmail.com"] {
     padding-bottom: 30px;
     padding-top: 1rem;
     min-height: 523px; }
+  input[value="aliciliniavopir@gmail.com"] {
+    margin-inline-start: -4rem; }
   .game__fith__information {
     float: right;
     margin-inline-start: 644px;
