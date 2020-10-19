@@ -247,7 +247,11 @@ option {
     display: none; } }
 
 body {
-  margin: 0; }
+  margin: 0;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  min-width: 223px;
+  max-height: 1442px; }
 
 .game__first__section--header {
   font-family: bebas-neue-bold;
